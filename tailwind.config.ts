@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
+      outline: {
+        gradient: ['4px solid', 'linear-gradient(to bottom, #CE722C, #471514)'],
+      },
     },
   },
   plugins: [],
